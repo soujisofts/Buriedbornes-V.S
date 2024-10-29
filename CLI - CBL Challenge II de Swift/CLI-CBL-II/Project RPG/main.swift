@@ -108,7 +108,7 @@ func battle(player: inout Player, enemy: inout Enemy) {
                     player.items.append(item)
                     print("Você coletou um \(item.name)!")
                 }
-                break
+                return
             }
             
             // Contra-ataque do inimigo
